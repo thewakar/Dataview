@@ -1,3 +1,6 @@
-panda
+plotly
+scipy
+pandas
+pyforest
 streamlit
 renderLightweightCharts
