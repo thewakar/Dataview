@@ -12,7 +12,7 @@ chartOptions = {
 }
 
 import requests
-r = requests.get('https://docs.google.com/spreadsheets/d/1Vdw5xnB_WfduSsZOEbF-ZltwT2yxAxTSaPH2saX5o5A/edit#gid=0&output=csv')
+r = requests.get('https://docs.google.com/spreadsheets/d/1Vdw5xnB_WfduSsZOEbF-ZltwT2yxAxTSaPH2saX5o5A&output=csv')
 data = r.content
 
 seriesLineChart = [{
